@@ -1,0 +1,36 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Alarm Tone -->
+    <PreferenceCategory android:title="Alarm Tone">
+        <com.example.habitwave.RingtonePreference
+            android:key="alarm_tone"
+            android:title="Change Alarm Tone"
+            android:defaultValue="default_alarm">
+
+        </com.example.habitwave.RingtonePreference>
+<!--            android:defaultValue="content://settings/system/alarm_alert" />-->
+
+    </PreferenceCategory>
+
+    <!-- Notifications -->
+    <PreferenceCategory android:title="Notifications">
+        <SwitchPreferenceCompat
+            android:key="notifications"
+            android:title="Enable Notifications"
+            android:defaultValue="true" />
+        <!-- Note: Implement TimePreference or use TimePickerDialog directly -->
+        <Preference
+            android:key="notification_time"
+            android:title="Notification Time" />
+    </PreferenceCategory>
+
+    <!-- FAQ -->
+    <PreferenceCategory android:title="Help &amp; Support">
+        <Preference
+            android:key="faq"
+            android:title="FAQ"
+            android:summary="Frequently Asked Questions"
+            android:fragment="com.example.habitwave.FAQFragment" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,28 @@
+<!--<resources xmlns:tools="http://schemas.android.com/tools">-->
+<!--    &lt;!&ndash; Base application theme. &ndash;&gt;-->
+<!--    <style name="Base.Theme.HabitWave" parent="Theme.Material3.Light.NoActionBar">-->
+<!--        &lt;!&ndash; Customize your light theme here. &ndash;&gt;-->
+<!--        &lt;!&ndash; <item name="colorPrimary">@color/my_light_primary</item> &ndash;&gt;-->
+<!--    </style>-->
+
+<!--    <style name="Theme.HabitWave" parent="Base.Theme.HabitWave" />-->
+<!--</resources>-->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Theme.MyApp" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary branding color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorOnPrimary">@color/md_theme_light_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_light_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/md_theme_light_onPrimaryContainer</item>
+
+        <!-- Customize your button color -->
+        <item name="materialButtonStyle">@style/Widget.MyApp.Button</item>
+    </style>
+
+    <!-- Customize button style -->
+    <style name="Widget.MyApp.Button" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/md_theme_light_primary</item>
+        <item name="textFillColor">@color/md_theme_light_onPrimary</item>
+    </style>
+</resources>

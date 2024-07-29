@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+
+    <color name="primary_color">#FF9800</color>
+    <color name="primary_dark_color">#00877A</color>
+    <color name="tan_background">#3F45B5</color>
+    <color name="category_hindi">#E91E63</color>
+    <color name="category_english">#379237</color>
+    <color name="category_punjabi">#E066FF</color>
+    <color name="category_haryanvi">#16AFCA</color>
+    <color name="tifiny">#A4E8E0</color>
+    <color name="cyan">#4CD7D0</color>
+    <color name="fresia">#E1C340</color>
+    <color name="babypink">#EF7C8E</color>
+    <color name="cream">#FAE8E0 </color>
+    <color name="spearmint">#B6E2D3</color>
+    <color name="rosewater">#D8A7B1</color>
+
+
+    <color name="md_theme_light_primary">#6200EE</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#BB86FC</color>
+    <color name="md_theme_light_onPrimaryContainer">#3700B3</color>
+
+
+        <color name="your_text_color">#FF0000</color>
+        <color name="your_spinner_color">#00FF00</color>
+
+
+
+
+
+
+</resources>

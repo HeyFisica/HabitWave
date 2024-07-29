@@ -1,0 +1,6 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.example.habitwave.RingtonePreference
+        android:key="alarm_tone"
+        android:title="Alarm Tone"
+        android:defaultValue="default_alarm" />
+</PreferenceScreen>

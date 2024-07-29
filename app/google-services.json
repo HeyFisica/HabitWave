@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "236664455367",
+    "project_id": "habitwave-bafa0",
+    "storage_bucket": "habitwave-bafa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236664455367:android:9b2bfa616d7a2e26c83ee2",
+        "android_client_info": {
+          "package_name": "com.example.habitwave"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAl_2I9z4I86Nw2iVE8h8VX_cvjJqRFmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

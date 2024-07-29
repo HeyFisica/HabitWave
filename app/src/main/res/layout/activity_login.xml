@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".LoginActivity"
+    android:orientation="vertical"
+    android:background="@drawable/hab3">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:contentDescription="@string/todo" />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtEmailLogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/enter_email_address"
+                android:padding="10dp"
+
+                android:inputType="textEmailAddress"
+                android:textColor="#6E6767"
+                android:textColorHint="#6E6767"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginEnd="60dp"
+            app:passwordToggleEnabled="true">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edtPasswordLogin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="@string/enter_password"
+                android:padding="10dp"
+                android:password="true"
+                android:inputType="textPassword"
+                android:textColorHint="#595454"
+                android:textColor="#6E6767"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/loginABtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/login"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@color/purple_500"
+            android:textSize="20sp"
+            android:layout_marginTop="30dp"
+            style="@style/Widget.MyApp.Button"
+            >
+
+        </Button>
+
+    <Button
+        android:id="@+id/signUpABtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/for_create_new_account"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:background="@android:color/transparent"
+
+        />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/powered_by_hey_fisica"
+    android:layout_marginTop="160dp"
+    android:textColor="@color/category_english"
+    android:layout_gravity="center"
+    >
+
+</TextView>
+
+</LinearLayout>
