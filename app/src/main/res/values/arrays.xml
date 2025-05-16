@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="alarm_tune_names">
+        <item>Default Tune</item>
+        <item>Tune 1</item>
+        <item>Tune 2</item>
+    </string-array>
+    <string-array name="alarm_tune_values">
+        <item>default_tune</item>
+        <item>tune_1</item>
+        <item>tune_2</item>
+    </string-array>
+</resources>

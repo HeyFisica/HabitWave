@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AddAlarmActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Stop" />
+
+    <ImageButton
+        android:id="@+id/stopBtn"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+
+
+        android:src="@drawable/baseline_stop_24"
+        android:contentDescription="@string/todo" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingHorizontal="20dp">
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Write your Goal name and Set Date and Time"-->
+            <!--                android:textSize="20sp"-->
+            <!--                android:layout_gravity="center"-->
+            <!--                android:textColor="@color/purple_200"-->
+            <!--                android:textStyle="bold"-->
+            <!--                android:fontFamily="@font/montserrat"-->
+            <!--                android:gravity="center"-->
+            <!--                android:layout_margin="10dp"-->
+            <!--                android:padding="5dp" />-->
+
+            <TextView
+                android:id="@+id/habitTitleTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:gravity="center"
+                android:text="Habit Title"
+                android:textColor="#00BCD4"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/montserrat"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Select Days of the Week"
+                android:textColor="@color/purple_200"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <GridLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:columnCount="4"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:rowCount="2">
+
+                <CheckBox
+                    android:id="@+id/checkMonday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+                    android:text="Mon"
+
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkTuesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+
+                    android:text="Tue"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkWednesday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+
+                    android:text="Wed"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkThursday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+
+                    android:text="Thu"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkFriday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+
+                    android:text="Fri"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkSaturday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+
+                    android:text="Sat"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkSunday"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+
+                    android:text="Sun"
+                    android:textSize="18sp" />
+
+                <CheckBox
+                    android:id="@+id/checkAll"
+                    android:layout_width="wrap_content"
+                    android:layout_height="48dp"
+                    android:layout_margin="5dp"
+
+                    android:text="Daily"
+                    android:textSize="18sp" />
+            </GridLayout>
+
+            <DatePicker
+                android:id="@+id/datePicker"
+                style="@style/CustomDatePicker"
+                android:layout_width="411dp"
+                android:layout_height="183dp"
+                android:layout_gravity="center"
+                android:calendarTextColor="@color/your_spinner_color"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner" />
+
+            <TimePicker
+                android:id="@+id/timePicker"
+                style="@style/TimePickerTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner" />
+
+            <Button
+                android:id="@+id/notifyMeBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/squarehabitbtn"
+                android:text="Notify Me"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/saveForLaterBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/squarehabitbtn"
+                android:text="Save for Later"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
